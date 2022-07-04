@@ -5,7 +5,8 @@ body{
 h1{font-size: 50px;}
 .color{color: orange;}
 
-section{display: flex;}
+section{display: flex;
+margin-bottom: 100px;}
 
 .half-width{
     width: 50%;
@@ -25,4 +26,10 @@ width: 80%;
 .bannar{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.color{color: chartreuse;}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
